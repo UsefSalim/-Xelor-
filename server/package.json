@@ -1,10 +1,10 @@
 {
-  "name": "mernTemplate",
+  "name": "xelor",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "config": "npm i && cd ../client && npm i ",
+    "config": "npm i && cd ../client && yarn install ",
     "dev": "nodemon server.js"
   },
   "author": "",
