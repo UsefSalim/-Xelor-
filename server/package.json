@@ -1,5 +1,5 @@
 {
-  "name": "xelor",
+  "name": "xelorstarter",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -20,7 +20,7 @@
     "joi": "^17.4.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.6",
-    "xelor": "^1.2.12"
+    "xelor": "^1.5.0"
   },
   "devDependencies": {
     "eslint": "^7.25.0",
