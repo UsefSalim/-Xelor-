@@ -6,7 +6,6 @@ const morgan = require('morgan');
 const helmet = require('helmet');
 const fs = require('fs');
 const path = require('path');
-const { verifIsAuthenticated } = require('xelor');
 
 const error = require('./src/middlewares/errors.middleware');
 
@@ -27,7 +26,4 @@ module.exports = (app) => {
   // Routes
 
   app.use(error);
-  app.use('*', verifIsAuthenticated, (req, res, next) => {
-    next();
-  });
 };
